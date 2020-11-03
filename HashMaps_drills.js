@@ -19,7 +19,6 @@ function main() {
   console.log(lotr.get('Maiar'), lotr.get('Hobbit'))
 
 
-
 }
 
 // main()
@@ -42,7 +41,7 @@ const WhatDoesThisDo = function(){
     console.log('string 4', map2.get(str4));
 }
 
-// WhatDoesThisDo()
+WhatDoesThisDo()
 
 function removeDuplicates(str) {
     const mapStr = new HashMap()
